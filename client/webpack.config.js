@@ -18,13 +18,17 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      
+      new HtmlWebpackPlugin({
+        {
+          title; 'Text Editor',
+        }
+      })
     ],
 
-    module: {
-      rules: [
-        
-      ],
+  module: {
+    rules: [
+
+    ],
     },
-  };
+};
 };
