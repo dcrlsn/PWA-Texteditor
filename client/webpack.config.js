@@ -12,6 +12,9 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
+      database: './src/js/database.js',
+      editor: './src/js/editor.js',
+      header: './src/js/header.js',
     },
     output: {
       filename: '[name].js',
@@ -21,7 +24,8 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         title: 'Text Editor',
-        template: './index.html'
+        template: './index.html',
+        favicon: "./favicon.ico"
       }),
       new InjectManifest({
         swSrc: './src-sw.js',
