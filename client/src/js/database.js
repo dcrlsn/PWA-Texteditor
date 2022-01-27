@@ -31,9 +31,10 @@ export const getDb = async () => {
   const request = store.getAll();
   const result = await request;
   if (result.length > 0) {
+    let i = result.length - 1
     console.log('result.value', result);
-    console.log(result[0].content);
-    return result[0].content;
+    console.log(result[i].content);
+    return result[i].content;
   } else
     return null;
 }
