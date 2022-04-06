@@ -8,7 +8,7 @@
 ## Description
 This is a simple text editor that contains context hilighting. It can be used online or installed as a PWA on a phone.
 
-##Installation
+## Installation
 `npm install`
 For the required dependencies then run `npm start`
 
