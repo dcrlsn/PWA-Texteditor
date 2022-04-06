@@ -4,6 +4,7 @@
 - [Usage](Usage)
 - [Installation](Installation)
 - [Deployed Site](Deployed-Site)
+- [Questions](Questions)
 
 ## Description
 This is a simple text editor that contains context hilighting. Its built using node and webpack. It can be used online or installed as a PWA on a phone.
@@ -17,3 +18,10 @@ To use this application simply open the browser, and begin typing. For offline u
 
 ## Deployed Site
 https://secret-depths-74231.herokuapp.com/
+
+## Questions
+
+Find me on Github at https://github.com/dcrlsn/
+
+Any Questions please contact me at
+carlson.daniel.j@gmail.com
