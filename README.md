@@ -6,7 +6,7 @@
 - [Deployed Site](Deployed-Site)
 
 ## Description
-This is a simple text editor that contains context hilighting. It can be used online or installed as a PWA on a phone.
+This is a simple text editor that contains context hilighting. Its built using node and webpack. It can be used online or installed as a PWA on a phone.
 
 ## Installation
 `npm install`
